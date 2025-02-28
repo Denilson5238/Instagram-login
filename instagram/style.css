@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 34%; 
+    margin-top: 20px;
+    padding: 0%;
+}
+
+.section-one{
+    border: 1.5px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-items: center;
+}
+
+.instg-logo{
+    width: 200px;
+}
+
+.facebook-logo{
+    width: 20px; 
+}
+
+.store-png{
+    width: 100px;
+    height: 30px;
+}
+
+.googleplay-png{
+    width: 100px;
+    height: 30px;
+}
+
+form{
+    width: 350px;
+    display: block;
+    text-align: center;
+   
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1.5px solid gray;
+}
+
+.btn{
+    width: 300px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 0.5rem;
+    outline: none;
+    border: solid gray;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    border: none;
+}
+
+.log-section{
+    margin-top: 20px;
+}
+
+.f-psw{
+    margin-top: 15px;
+}
+
+.s-two{
+    width: 350px;
+    height: 50px;
+    border: 1.5px solid gray;
+    margin-top: 15px; 
+    text-align: center;
+}
+
+.s-two p {
+    margin-top: 15px;
+}
+
+h4{
+    margin-top: 15px;
+}
+
+footer{
+    color: lightgray;
+    margin-top: 10px;
+}
+
+/* @media(max-width:820px){ */
+    .container{
+        width: 350px;
+        height: 600px;
+        margin-right: 30%;
+    }
+}
